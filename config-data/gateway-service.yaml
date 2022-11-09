@@ -33,3 +33,7 @@ spring:
           uri: lb://asistencia-service
           predicates:
             - Path=/asistencia/**
+        - id: documento-service
+          uri: lb://documento-service
+          predicates:
+            - Path=/documento/**
