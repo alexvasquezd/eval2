@@ -37,3 +37,7 @@ spring:
           uri: lb://documento-service
           predicates:
             - Path=/documento/**
+        - id: trabajador-service
+          uri: lb://trabajador-service
+          predicates:
+            - Path=/empleado/**            
